@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ig.estimador.api</name>
+    </assembly>
+    <members>
+        <member name="T:ig.estimador.api.Config.SwaggerConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ig.estimador.api.Config.SwaggerConfig.AddRegistration(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ig.estimador.api.Config.SwaggerConfig.AddRegistration(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ig.estimador.api.Controllers.WeatherForecastController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ig.estimador.api.Controllers.WeatherForecastController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ig.estimador.api.Controllers.WeatherForecastController.Post(ig.estimador.application.WeatherForecast.Commands.CreateWeatherForecastCommand)">
+            <summary>
+            
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ig.estimador.api.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ig.estimador.api.Program.Configuracion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ig.estimador.api.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:ig.estimador.api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ig.estimador.api.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ig.estimador.api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:ig.estimador.api.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ig.estimador.api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:ig.estimador.api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
